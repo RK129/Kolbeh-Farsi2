@@ -9,13 +9,22 @@ iframe {
   border-radius: 50%;
 }
 
+/* @media screen and (max-width: 600px) {
+  .switch {
+    position: relative;
+    left: 50rem;
+  }
+} */
+
 .body {
   text-align: center;
-  background-color: green;
+  /* background-color: green; */
+  /* background-color: #e3fdfd; */
+  background-color: #cefff1;
 }
 
 .bg-lime {
-  background-color: lime;
+  background-color: #cefff1;
 }
 
 .beg_sent {
@@ -32,11 +41,15 @@ iframe {
 }
 
 .cm {
-  background-color: lime;
+  /* background-color: lime; */
+    background-color: #006a71;
 }
 
 .lime {
-  color: lime;
+  /* color: lime; */
+  /* color: #30e3ca; */
+  /* color: #ff6f3c; */
+    color: #59405c;
 }
 
 .green {
@@ -55,7 +68,7 @@ iframe {
 .cm-homepage {
   margin-top: 10%;
   padding-top: 5%;
-  background-color: #206a5d;
+  background-color: #71c9ce;
 }
 
 .car {
@@ -71,7 +84,6 @@ iframe {
 .des {
   padding: 1% 0;
   width: 60%;
-  text-align: center;
 }
 
 .feature-box {
@@ -85,7 +97,7 @@ iframe {
 }
 
 .img1 {
-  width:23%;
+  width:27%;
   border-radius: 50%;
 }
 
@@ -113,6 +125,18 @@ iframe {
   width: 25%;
 }
 
+.con {
+  position: relative;
+  left: 100%;
+  color: #8675a9;
+}
+
+.con2 {
+  position: relative;
+  right: 100%;
+  color: #00bcd4;
+}
+
 .borderindex {
   border: dotted 10px;
   border-bottom: none;
@@ -121,28 +145,47 @@ iframe {
   color: lime;
 }
 
-.switch {
+.padnav {
   position: relative;
-  right: 42rem;
+  right: 8%;
 }
 
-.con {
-  position: relative;
-  left: 100%;
-}
-
-.con2 {
-  position: relative;
-  right: 100%;
+.dropdown-item {
+  display: inline-block;
 }
 
 .left {
   text-align: left;
 }
 
+.cmh {
+  text-align: center;
+  margin-bottom: -20px;
+}
 
+.switch {
+  position: relative;
+  right: 35rem;
+}
 
+.power {
+  text-align: center;
+  position: relative;
+  bottom: 2.5rem;
+  color: lime;
+}
 
+.mbtn {
+  padding: 3px 5px;
+}
+
+/* .d {
+  padding
+} */
+
+.b {
+  display: inline-block;
+}
 
 
 
@@ -151,7 +194,7 @@ iframe {
 .myButton {
 	box-shadow: 0px 10px 14px -7px #276873;
 	background:lime;
-	background-color:lime;
+	background-color: #00b7c2;
 	border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
@@ -173,11 +216,43 @@ iframe {
 	top:1px;
 }
 
+@media (max-width: 1386px) {
+  .padnav {
+    padding-right: 20px;
+  }
+}
 
+@media (max-width: 450px) {
+  .img1 {
+    width: 60%;
+  }
 
-
-@media - (min-width: 0;) (max-width: 800px;) {
   .des {
-    padding: 3 0;
+    text-height: 1%;
+  }
+}
+
+@media (max-width: 600px) {
+  .img1 {
+    width: 65%;
+    padding-bottom: 4%;
+  }
+
+  .power {
+    position: relative;
+    top: 4%;
+  }
+
+  .grads {
+    height: 40%;
+    width: 40%;
+  }
+
+  .borderindex {
+    margin-bottom: 20%;
+  }
+
+  .imgsizing {
+    width: 100%;
   }
 }

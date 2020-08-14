@@ -2,12 +2,6 @@ iframe {
   padding: 0 1% 1%;
 }
 
-.zarostrian-czc-logo {
-  height: 50px;
-  width: 50px;
-  background-color: lime;
-  border-radius: 50%;
-}
 
 /* @media screen and (max-width: 600px) {
   .switch {
@@ -187,6 +181,67 @@ iframe {
   display: inline-block;
 }
 
+.second_1 {
+  padding: 0 0 6%;
+}
+
+.caaar {
+  padding: 3% 0 3%;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+/* .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+.reg_header {
+  text-align: center;
+  color: #59405c;
+  background-color: #cefff1;
+  padding-top: 2%;
+}
+
+.reg {
+  color: #519872;
+}
+
+
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
 

@@ -35,8 +35,8 @@ iframe {
 }
 
 .cm {
-  /* background-color: lime; */
-    background-color: #006a71;
+    background-color: #cefff1;
+    /* background-color: #006a71; */
 }
 
 .lime {
@@ -69,6 +69,10 @@ iframe {
   text-align: center;
   height: 10%;
   width: 80%;
+}
+
+.regdis {
+  text-align: center;
 }
 
 .car2 {
@@ -152,6 +156,10 @@ iframe {
   text-align: left;
 }
 
+.formthing {
+  padding: 2%;
+}
+
 .cmh {
   text-align: center;
   margin-bottom: -20px;
@@ -209,7 +217,7 @@ iframe {
 }
 
 .reg {
-  color: #519872;
+  font-weight: bold;
 }
 
 
@@ -285,6 +293,7 @@ iframe {
   .des {
     text-height: 1%;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -309,5 +318,9 @@ iframe {
 
   .imgsizing {
     width: 100%;
+  }
+
+  .reg {
+    z-index: -1;
   }
 }

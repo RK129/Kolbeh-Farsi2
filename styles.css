@@ -180,7 +180,7 @@ iframe {
   text-align: center;
   position: relative;
   bottom: 2.5rem;
-  color: lime;
+  color: #000;
 }
 
 .mbtn {
@@ -228,6 +228,21 @@ iframe {
 }
 
 
+.invidst {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
 
 
 
@@ -263,7 +278,35 @@ iframe {
 
 
 
-.myButton {
+
+
+
+/* .glow {
+  font-size: 100%;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  } */
+
+
+
+
+
+
+
+
+
+.mButton {
 	box-shadow: 0px 10px 14px -7px #276873;
 	background:lime;
 	background-color: #00b7c2;
@@ -279,14 +322,15 @@ iframe {
 	text-shadow:0px 1px 0px #3d768a;
   margin-bottom: 7%;
 }
-.myButton:hover {
+.mButton:hover {
 	background: #96bb7c;
 	background-color:#b6eb7a;
 }
-.myButton:active {
+.mButton:active {
 	position:relative;
 	top:1px;
 }
+
 
 @media (max-width: 1386px) {
   .padnav {

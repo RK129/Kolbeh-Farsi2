@@ -6,6 +6,31 @@ iframe {
   text-align: center;
 }
 
+/* @media (max-width: 800px;) {
+  .body {
+    background-color: blue;
+  }
+} */
+
+/* Minimum width */
+/* @media (min-width: 2rem) {
+  div {
+    background: yellow;
+  }
+} */
+
+/* Maximum width */
+@media (max-width: 700px) {
+  .des {
+    font-size: 1.2rem;
+  }
+
+  .img1 {
+    width: 230rem;
+  }
+
+}
+
 .power:hover {
   color: green;
 }
@@ -109,7 +134,7 @@ iframe {
 }
 
 .img1 {
-  width:27%;
+  width: 27%;
   border-radius: 50%;
 }
 
@@ -183,7 +208,7 @@ iframe {
 .power {
   text-align: center;
   position: relative;
-  bottom: 2.5rem;
+  bottom: 1.5rem;
   color: #000;
 }
 
@@ -246,6 +271,8 @@ iframe {
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
+
+
 
 
 
@@ -336,13 +363,13 @@ iframe {
 }
 
 
-@media (max-width: 1386px) {
+/* @media (max-width: 1386px) {
   .padnav {
     padding-right: 20px;
   }
-}
+} */
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
   .img1 {
     width: 60%;
   }
@@ -377,4 +404,4 @@ iframe {
     width: 100%;
   }
 
-}
+} */

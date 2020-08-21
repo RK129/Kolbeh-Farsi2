@@ -6,6 +6,10 @@ iframe {
   text-align: center;
 }
 
+.power:hover {
+  color: green;
+}
+
 
 /* @media screen and (max-width: 600px) {
   .switch {

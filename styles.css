@@ -1,3 +1,13 @@
+    /* IDs */
+
+#JashnehTeergon {
+  padding: 2.5% 1.5%;
+}
+
+#FinalSummerproject {
+  padding: 3% 1.5%;
+}
+
 iframe {
   padding: 0 1% 1%;
 }
@@ -11,14 +21,12 @@ iframe {
     background-color: blue;
   }
 } */
-
 /* Minimum width */
 /* @media (min-width: 2rem) {
   div {
     background: yellow;
   }
 } */
-
 /* Maximum width */
 @media (max-width: 700px) {
   .des {
@@ -28,13 +36,11 @@ iframe {
   .img1 {
     width: 230rem;
   }
-
 }
 
 .power:hover {
   color: green;
 }
-
 
 /* @media screen and (max-width: 600px) {
   .switch {
@@ -42,7 +48,6 @@ iframe {
     left: 50rem;
   }
 } */
-
 .body {
   text-align: center;
   /* background-color: green; */
@@ -54,6 +59,10 @@ iframe {
   text-align: right;
   padding: 0 2% 2%;
   margin-bottom: 2%;
+}
+
+.mhmmm {
+  width: 30%;
 }
 
 .bg-lime {
@@ -78,15 +87,15 @@ iframe {
 }
 
 .cm {
-    background-color: #cefff1;
-    /* background-color: #006a71; */
+  background-color: #cefff1;
+  /* background-color: #006a71; */
 }
 
 .lime {
   /* color: lime; */
   /* color: #30e3ca; */
   /* color: #ff6f3c; */
-    color: #59405c;
+  color: #59405c;
 }
 
 .green {
@@ -183,8 +192,9 @@ iframe {
 }
 
 .padnav {
-  position: relative;
-  right: 8%;
+  /* position: absolute;
+  right: 8%; */
+  padding-left: 10%;
 }
 
 .dropdown-item {
@@ -219,7 +229,6 @@ iframe {
 /* .d {
   padding
 } */
-
 .b {
   display: inline-block;
 }
@@ -243,7 +252,6 @@ iframe {
   font-size: 16px;
   border: none;
 } */
-
 .reg_header {
   text-align: center;
   color: #59405c;
@@ -256,26 +264,20 @@ iframe {
   font-weight: bold;
 }
 
-
 .invidst {
   text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
 }
-
-
-
-
-
 
 .dropdown {
   position: relative;
@@ -287,7 +289,7 @@ iframe {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -299,18 +301,13 @@ iframe {
 }
 
 /* .dropdown-content a:hover {background-color: #ddd;} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-
-
-
-
-
-
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 /* .glow {
   font-size: 100%;
@@ -328,47 +325,38 @@ iframe {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   } */
-
-
-
-
-
-
-
-
-
 .mButton {
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:lime;
-	background-color: #00b7c2;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:green;
-	font-family:Georgia;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: lime;
+  background-color: #00b7c2;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: green;
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
   margin-bottom: 7%;
 }
+
 .mButton:hover {
-	background: #96bb7c;
-	background-color:#b6eb7a;
-}
-.mButton:active {
-	position:relative;
-	top:1px;
+  background: #96bb7c;
+  background-color: #b6eb7a;
 }
 
+.mButton:active {
+  position: relative;
+  top: 1px;
+}
 
 /* @media (max-width: 1386px) {
   .padnav {
     padding-right: 20px;
   }
 } */
-
 /* @media (max-width: 450px) {
   .img1 {
     width: 60%;

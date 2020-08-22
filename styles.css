@@ -34,12 +34,12 @@ iframe {
   }
 
   h1 {
-    padding: 1%;
+    padding: 2%;
   }
 
-  /* .img1 {
+  .img1 {
     width: 230rem;
-  } */
+  }
 }
 
 .power:hover {
@@ -370,7 +370,7 @@ iframe {
     text-height: 1%;
     font-size: 20%;
   }
-} */
+}
 
 @media (max-width: 600px) {
   .img1 {
@@ -396,4 +396,4 @@ iframe {
     width: 100%;
   }
 
-}
+} */

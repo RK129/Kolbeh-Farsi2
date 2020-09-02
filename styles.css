@@ -1,37 +1,5 @@
-    /* IDs */
+/* Medias / mobile responsive css */
 
-#JashnehTeergon {
-  padding: 2.5% 1.5%;
-}
-
-#FinalSummerproject {
-  padding: 3% 1.5%;
-}
-
-#StudentCirtification {
-  padding: 2.5% 1.5%;
-}
-
-iframe {
-  padding: 0 1% 1%;
-}
-
-.regdis {
-  text-align: center;
-}
-
-/* @media (max-width: 800px;) {
-  .body {
-    background-color: blue;
-  }
-} */
-/* Minimum width */
-/* @media (min-width: 2rem) {
-  div {
-    background: yellow;
-  }
-} */
-/* Maximum width */
 @media (max-width: 700px) {
   .des {
     font-size: 1.2rem;
@@ -54,11 +22,61 @@ iframe {
     width: 100%;
     height: 100%;
   }
+
+  .dn_header {
+    padding: 8% 0 10%;
+  }
+
+}
+
+.dn_header {
+  margin-top: 2%;
 }
 
 .power:hover {
   color: green;
 }
+
+
+    /* IDs */
+
+#JashnehTeergon {
+  padding: 2.5% 1.5%;
+}
+
+#FinalSummerproject {
+  padding: 3% 1.5%;
+}
+
+#StudentCirtification {
+  padding: 2.5% 1.5%;
+}
+
+/* Selectors */
+
+iframe {
+  padding: 0 1% 1%;
+}
+
+/* CSS classes */
+
+.regdis {
+  text-align: center;
+}
+
+/* @media (max-width: 800px;) {
+  .body {
+    background-color: blue;
+  }
+} */
+/* Minimum width */
+/* @media (min-width: 2rem) {
+  div {
+    background: yellow;
+  }
+} */
+/* Maximum width */
+
 
 /* @media screen and (max-width: 600px) {
   .switch {

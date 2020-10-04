@@ -25,7 +25,38 @@
   .dn_header {
     padding: 8% 0 10%;
   }
+
+  .p-bi {
+    border: dotted 10px;
+    border-bottom: none;
+    width: 10%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    color: lime;
+    text-align: center;
+  }
+
+  /* #JashnehTeergon {
+    padding: 6.5% 5.5%;
+  }
+
+  #FinalSummerproject {
+    padding: 7% 5.5%;
+  }
+
+  #StudentCirtification {
+    padding: 6.5% 5.5%;
+  } */
+
+ /* .pt-hr {
+    margin-top: 150rem;
+ } */
+
 }
+
+
+
+
 
 .dn_header {
   margin-top: 2%;
@@ -36,15 +67,15 @@
 }
 
 /* IDs */
-#JashnehTeergon {
+#p1 {
   padding: 2.5% 1.5%;
 }
 
-#FinalSummerproject {
+#p2 {
   padding: 3% 1.5%;
 }
 
-#StudentCirtification {
+#p3 {
   padding: 2.5% 1.5%;
 }
 
@@ -233,6 +264,17 @@ iframe {
   text-align: left;
 }
 
+.p-bi {
+  border: dotted 10px;
+  border-bottom: none;
+  width: 10%;
+  /* margin: 10% 0; */
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: lime;
+  text-align: center;
+}
+
 .cmh {
   text-align: center;
   margin-bottom: -20px;
@@ -291,6 +333,7 @@ iframe {
   color: #519872;
   font-weight: bold;
 }
+
 
 .invidst {
   text-shadow: 0 1px 0 #ccc,
@@ -353,6 +396,8 @@ iframe {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   } */
+
+
 
 
   .mButton {
